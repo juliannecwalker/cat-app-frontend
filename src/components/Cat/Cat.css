@@ -1,0 +1,13 @@
+body {
+    background-color: #CF9FFF;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.image {
+    height:50%;
+    width:50%;
+}
