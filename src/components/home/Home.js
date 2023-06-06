@@ -20,6 +20,7 @@ export const Home = ({cats}) => {
                 )
             })
           }
+          <Button className={styles.button} bsPrefix="button" onClick={() => handleClick('new')}>Add Cat</Button>
         </ButtonGroup>
     </div>
   )

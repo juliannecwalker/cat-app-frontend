@@ -1,5 +1,6 @@
 import Cat from './components/cat/Cat';
 import Home from './components/home/Home';
+import New from './components/new/New';
 import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Redirect} from 'react-router';
 import {useState, useEffect} from 'react';
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/cats/" element={<Home cats={cats}/>} />
           <Route path="/cats/:name" element={<Cat />}/>
+          <Route path="/cats/new" element={<New />}/>
         </Routes>
     </>
   );
